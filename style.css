@@ -1,0 +1,123 @@
+/*  IMPORT FONT ================================================*/
+@font-face { 
+  font-family: 'HIDROM'; 
+  src: url(assets/fonts/HIDROM.woff);
+}
+
+p, h3, h1 { 
+  font-family: 'HIDROM'; 
+  font-size: 50px;
+}
+*{
+  margin:0;
+  padding:0;
+}
+/*  FONT ================================================*/
+h3{
+  color:rgb(251, 134, 0);
+}
+h1{
+  color:rgb(251, 134, 0);
+  size: 200px;
+}
+h3{
+  color:rgb(251, 134, 0);
+}
+p{
+  color: rgb(251, 134, 0);
+}
+.texteNoir{
+  color: black;
+}
+/* VIDEO ================================================*/
+.backVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  
+}
+/* section1 ================================================*/
+#section1{
+  min-height: 93.9vh;
+  width: 100vw;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+}
+#titre{
+  display: flex;
+  justify-content: center;
+}
+h1{
+  display: flex;
+  justify-content: right;
+font-size: 150px;
+}
+*{
+  margin:0;
+  padding:0;
+}
+
+#premierePage{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* section2 ================================================*/
+
+#section2{
+  min-height: 93.9vh;
+  width: 100vw;
+  padding-top: 50px;
+  background-color:rgb(251, 134, 0);
+  margin: 0;
+}
+*{
+  margin:0;
+  padding:0;
+}
+/* section3 ================================================*/
+
+#section3{
+  min-height: 93.9vh;
+  width: 100vw;
+  padding-top: 50px;
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+}
+*{
+  margin:0;
+  padding:0;
+}
+/* section4 ================================================*/
+
+#section4{
+ min-height: 93.9vh;
+  width: 100vw;
+  padding-top: 50px;
+  background-color: rgb(251, 134, 0);
+  margin: 0;
+}
+*{
+  margin:0;
+  padding:0;
+}
+/* section 5 ================================================*/
+
+#section5{
+  min-height: 93.9vh;
+  width: 100vw;
+  padding-top: 50px;
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+}
+*{
+  margin:0;
+  padding:0;
+}
