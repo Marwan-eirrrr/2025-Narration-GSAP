@@ -1,3 +1,11 @@
+/* BASE */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
 /*  IMPORT FONT ================================================*/
 @font-face { 
   font-family: 'HIDROM'; 
@@ -25,9 +33,12 @@ h3{
 }
 p{
   color: rgb(251, 134, 0);
+  padding-left: 30px;
+
 }
 .texteNoir{
   color: black;
+  padding-left: 30px;
 }
 /* VIDEO ================================================*/
 .backVideo {
@@ -120,4 +131,22 @@ font-size: 150px;
 *{
   margin:0;
   padding:0;
+}
+/* section 6 ================================================*/
+
+#section6{
+  min-height: 93.9vh;
+  width: 100vw;
+  padding-top: 50px;
+  background-color: rgb(251, 134, 0);
+  margin: 0;
+}
+
+#logoInsta{
+  border-radius: 50px;
+}
+
+#textInsta{
+  color: black;
+  
 }
