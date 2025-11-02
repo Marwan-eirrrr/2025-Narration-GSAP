@@ -98,19 +98,21 @@ p{
   display: flex;
   justify-content: center;
 }
-
-
-
 /* section2 ================================================*/
 
 #section2{
   min-height: 100vh;
-  width: 100vw;
+  width: 250vw;
   padding-top: 50px;
   background-color:rgb(251, 134, 0);
   margin: 0;
 }
-
+.carousel__track{
+  display: flex;
+}
+.carousel__img{
+  width: 600px;
+}
 /* section3 ================================================*/
 
 #section3{
@@ -146,15 +148,6 @@ p{
   height: 450px; 
   margin: 15px auto;
  }
-/* section4 ================================================*/
-
-#section4{
-  min-height: 100vh;
-  width: 100vw;
-  background-color: rgb(251, 134, 0);
-  margin: 0;
-}
-
 /* SECTION 5 ================================================*/
 
 #section5 {
@@ -191,6 +184,12 @@ p{
   width: 100vw;
   background-color: rgb(251, 134, 0);
   margin: 0;
+}
+#texteDrag{
+  color: black;
+}
+#photoReseaux{
+  width: 200px;
 }
 
 #logoInsta{
